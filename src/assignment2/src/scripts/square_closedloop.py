@@ -138,7 +138,7 @@ if __name__ == '__main__':
     try:
         x = TurtleBot()
         x.move2goal(5,5)
-        rotate(190)
+        rotate(180)
         x.move2goal(8,5)
         rotate(90)
         x.move2goal(8,8)
