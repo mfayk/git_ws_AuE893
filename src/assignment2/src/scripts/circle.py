@@ -11,15 +11,15 @@ def move():
 	#Receiveing the user's input
 	print("Let's move your robot")
 	#speed = int(input("Input your speed:"))
-	speed = rospy.get_param('~speed')
+	speed = 1
 	aspeed = 40
 	angular_speed = aspeed*2*(math.pi)/360
 	angle = 25
 	relative_angle = angle*2*(math.pi)/360
 #	distance = int(input("Type your distance:"))
-	distance = rospy.get_param('~distance')
+	distance = 8
 #	isForward = int(input("Foward?: "))#True or False
-	isForward = rospy.get_param('~forward')	
+	isForward = 1
 
 	
 
